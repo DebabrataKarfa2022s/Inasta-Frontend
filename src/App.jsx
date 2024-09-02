@@ -116,7 +116,7 @@ function App() {
   useEffect(() => {
     if (user) {
       // Initialize socket connection
-      const socketio = io('http://localhost:6080', {
+      const socketio = io('https://insta-backend-za7q.onrender.com', {
         query: { userId: user._id },
         transports: ['websocket'],
         reconnection: true,

@@ -8,9 +8,9 @@ export default defineConfig({
     open:true,
     hmr: true,
     historyApiFallback: true,
-    proxy:{
-      "/api": "http://localhost:6080",
-    },
+    // proxy:{
+    //   "/api": "http://localhost:6080",
+    // },
   },
   
 
