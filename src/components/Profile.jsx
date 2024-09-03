@@ -143,7 +143,7 @@ const Profile = () => {
           </section>
         </div>
 
-        {/* <div className='border-t border-t-gray-200'>
+        <div className='border-t border-t-gray-200'>
           <div className='flex items-center justify-center gap-10 text-sm'>
             <span
               className={`py-3 cursor-pointer ${activeTab === 'posts' ? 'font-bold' : ''}`}
@@ -211,7 +211,7 @@ const Profile = () => {
               <span className='font-bold text-xl sm:text-3xl'>No Post Yet</span>
             </div>
           )}
-        </div> */}
+        </div>
 
       </div>
       <CreatePost open={open} setOpen={setOpen} />
