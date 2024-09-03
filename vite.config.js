@@ -8,10 +8,10 @@ export default defineConfig({
     open:true,
     hmr: true,
     historyApiFallback: true,
-    proxy:{
-      "/api": "http://localhost:6080",
-      // "/api": "https://insta-backend-za7q.onrender.com",
-    },
+    // proxy:{
+    //   // "/api": "http://localhost:6080",
+    //   "/api": "https://insta-backend-za7q.onrender.com",
+    // },
   },
   
 

@@ -1,11 +1,12 @@
 // const BackendUrl= "http://localhost:8000"
-// const UserBackendDomain='https://insta-backend-za7q.onrender.com/api/v1/user'
-// const PostBackendDomain='https://insta-backend-za7q.onrender.com/api/v1/post'
-// const MessageBackendDomain='https://insta-backend-za7q.onrender.com/api/v1/message'
 
-const UserBackendDomain='/api/v1/user'
-const PostBackendDomain='/api/v1/post'
-const MessageBackendDomain='/api/v1/message'
+const UserBackendDomain='https://insta-backend-za7q.onrender.com/api/v1/user'
+const PostBackendDomain='https://insta-backend-za7q.onrender.com/api/v1/post'
+const MessageBackendDomain='https://insta-backend-za7q.onrender.com/api/v1/message'
+
+// const UserBackendDomain='/api/v1/user'
+// const PostBackendDomain='/api/v1/post'
+// const MessageBackendDomain='/api/v1/message'
 
 export const SummaryApi = {
     // usr routes 
