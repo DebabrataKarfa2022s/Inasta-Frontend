@@ -27,7 +27,7 @@ const ForgetPassword = () => {
             console.log("response from forgot password : ",response)
 
             if (response.data.success) {
-                toast.success(response.data.data.message);
+                toast.success(response.data.message);
                 navigate("/login")
             } else {
                 toast.error(response.data.message)
