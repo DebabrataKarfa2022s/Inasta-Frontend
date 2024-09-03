@@ -45,7 +45,7 @@ const Login = () => {
         withCredentials: true
       });
 
-      // console.log("lgoin response : ",response);
+      console.log("lgoin response : ",response);
       if (response.data.success) {
         dispatch(setAuthUser(response.data.data))
         navigate("/");
