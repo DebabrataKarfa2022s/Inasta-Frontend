@@ -20,7 +20,7 @@ const ChatPage = () => {
   const { onlineUsers, messages } = useSelector(store => store.chat);
   const dispatch = useDispatch();
 
-  console.log("all user form chat page : ", allUsers);
+  // console.log("all user form chat page : ", allUsers);
 
   const sendMessageHandler = async (receiverId) => {
     try {

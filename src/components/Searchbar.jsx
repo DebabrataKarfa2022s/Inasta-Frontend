@@ -72,7 +72,7 @@ const Searchbar = ({ open, setOpen }) => {
                         </div>
 
                         {loading && <p>Loading...</p>}
-                        {results.map((user) => (
+                        {results && results.map((user) => (
                             <div key={user._id} className="flex items-center gap-4 my-2">
                                 <Link to={`${user?._id}/profile`} onClick={() => { setOpen(false); setQuery(''); setResults([]); }} >
                                     <Avatar>

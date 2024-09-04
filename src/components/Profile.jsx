@@ -25,7 +25,7 @@ const Profile = () => {
   const { userProfile, user } = useSelector((store) => store.auth);
   const dispatch = useDispatch();
 
-  const isFollowing = user.following.includes(userId);
+  const isFollowing = user?.following?.includes(userId);
   const isLoggedInUserProfile = user?._id === userProfile?._id;
 
   const handleTabChange = (tab) => setActiveTab(tab);
@@ -62,7 +62,7 @@ const Profile = () => {
   };
 
   const displayedPosts =
-    activeTab === 'posts' ? userProfile?.posts : userProfile?.bookmarks;
+    activeTab === 'posts' ? userProfile?.posts || [] : userProfile?.bookmarks || [];
 
   return (
     <div className='flex max-w-2xl lg:max-w-5xl justify-center mx-auto pl-10'>

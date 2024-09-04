@@ -84,7 +84,7 @@ const LeftSlidebar = () => {
   ];
 
   return (
-    <div className="fixed top-0 left-0 w-full h-16 px-4 border-b border-gray-300 md:border-0 md:border-r md:w-[13%] md:h-screen md:px-4 z-10 bg-white lg:w-[16%]">
+    <div className="fixed top-0 left-0 w-full h-20 px-4   border-b border-gray-300 md:border-0 md:border-r md:w-[13%] md:h-screen md:px-4 z-10 bg-white lg:w-[16%]">
       <div className="flex flex-row md:flex-col items-center justify-between md:justify-start md:items-start">
         <Lottie animationData={icon2} className='hidden md:block w-24 h-24 md:w-14 md:h-14' />
         <Lottie animationData={icon3} className=' md:hidden w-24 h-24 md:w-14 md:h-14' />

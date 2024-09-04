@@ -5,7 +5,7 @@ import Post from './Post';
 const Posts = () => {
     const {posts} = useSelector(store=>store.post);
   return (
-    <div className='mt-5 md:mt-0' >
+    <div className='mt-10 md:mt-0' >
       {
         posts.map((post)=><Post key={post._id} post={post} />)
       }

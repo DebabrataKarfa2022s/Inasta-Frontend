@@ -13,6 +13,8 @@ export const SocketProvider = ({ user, children }) => {
     const [socket, setSocket] = useState(null);
     const dispatch = useDispatch();
 
+    // http://localhost:6080
+    // https://insta-backend-za7q.onrender.com
     useEffect(() => {
         if (user) {
             // Initialize socket connection
