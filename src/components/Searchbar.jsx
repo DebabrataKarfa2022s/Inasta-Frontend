@@ -38,7 +38,9 @@ const Searchbar = ({ open, setOpen }) => {
         setLoading(true);
         try {
             const response = await axios.get(
-                `${SummaryApi.searchUsers.url}?username=${encodeURIComponent(query)}`
+                `${SummaryApi.searchUsers.url}?username=${encodeURIComponent(query)}`,{
+                    withCredentials:true
+                }
             );
             setResults(response.data.data);
         } catch (error) {
